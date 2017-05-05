@@ -1,0 +1,1 @@
+This is a proof of concept on how to call the Open Weather Map API, create a JSON file, and upload that file to IBM's Watson Discovery Service via their API
