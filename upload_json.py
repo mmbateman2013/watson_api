@@ -75,7 +75,7 @@ for city in cities:
   fn = city+'.json'
   with open(fn,'w') as wf:
       json.dump(contents,wf)
-      
+  
   #call the Watson API and upload wf
   with open(fn,'r') as fileinfo:
       add_doc = discovery.add_document(WATSON_ENV, WATSON_COLLECT, file_info=fileinfo)
