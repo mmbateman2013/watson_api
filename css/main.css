@@ -1,0 +1,15 @@
+*{
+    font-family:Helvetica;
+}
+
+form{
+    line-height:1.5;
+}
+
+#form-labels, #form-inputs{
+    float:left;
+}
+
+input{
+    width:100%;
+}

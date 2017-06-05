@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>IBM Watson Query Engine</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <h1 id="title">Air Liquide Watson Query Page</h1>
+        <form id="query-form">
+            <div id="form-labels">
+                Collection:<br>
+                Query:
+            </div>
+            <div id="form-inputs">
+                <input id="collection-text" type="text" name="collection-text"><br>
+                <input id="query-text" type="text" name="query-text"><br>
+                <button id="submit" type="button">Submit</button>
+            </div>
+        </form>
+        <div id="answer">
+            <p id="collection-ans"></p>
+            <p id="query-ans"></p>
+        </div>
+    </body>
+</html>
